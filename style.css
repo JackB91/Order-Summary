@@ -1,0 +1,108 @@
+html{
+    font-family: red hat display ;
+    background-color: hsl(225, 100%, 94%);
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* TODO: Background image */
+}
+
+.hero-img {
+    width: 100%;
+    height: auto;    
+}
+.container {
+    background-color: white;
+    max-width: 20rem;
+    border-radius: 20px;  
+    overflow: hidden; 
+    text-align: center; 
+    display: flex; 
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+
+.plan {
+    max-width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(225, 100%, 98%);
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10px;
+    padding: 10px;
+    line-height: 5px;
+}
+
+h2 {
+    margin: 20px;
+    font-size: medium;
+}
+
+p {
+    color: hsl(224, 23%, 55%);
+}
+
+.description {
+    margin: 2rem;
+}
+
+
+/* button styling */
+
+button:hover { 
+    cursor: pointer;
+
+}
+
+.change {
+    border: none;
+    text-decoration: underline;
+    color: hsl(245, 75%, 52%);
+    background-color:hsl(225, 100%, 98%) ;
+    
+    
+}
+.change:hover {
+    cursor: pointer;
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+}
+
+
+.payment {
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    width: 80%;
+    height: 2.5rem;
+    border-radius: 10px;
+    border: none;
+    margin: 1rem;
+    box-shadow: 0px 10px 20px hsl(224, 23%, 55%)    
+}
+
+.payment:hover {
+    background-color: hsl(224, 23%, 55%)
+}
+
+.cancel {
+    border: none;
+    margin: 1rem;
+    background-color: white;
+    color: hsl(224, 23%, 55%);
+    font-weight: 600; 
+    margin-bottom: 2rem; 
+}
+
+.cancel:hover {
+    color: hsl(223, 47%, 23%);
+}
